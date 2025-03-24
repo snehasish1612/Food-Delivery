@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary bg-dark border-bottom border-body"
         data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">Eat & Repeat</a>
+            <a class="navbar-brand" href="/Food-Delivery/index.html">Eat & Repeat</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,13 +31,13 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
+                        <a class="nav-link" href="/Food-Delivery/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/menu.html">Menu</a>
+                        <a class="nav-link" href="/Food-Delivery/menu.html">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/cart.html">Cart</a>
+                        <a class="nav-link active" aria-current="page" href="/Food-Delivery/cart.html">Cart</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/about.html">About Us</a>
@@ -157,7 +157,7 @@
             cartItems.innerHTML = '';
 
             if (cart.length === 0) {
-                cartItems.innerHTML = '<p class="text-center">Your cart is empty. Add items from the <a href="/menu.html">menu</a> to proceed.</p>';
+                cartItems.innerHTML = '<p class="text-center">Your cart is empty. Add items from the <a href="/Food-Delivery/menu.html">menu</a> to proceed.</p>';
                 totalPriceElement.textContent = 'Total: ₹0';
                 checkoutButton.disabled = true; // Disable checkout button
                 return;
@@ -252,7 +252,7 @@
 
             // Show success message and close modal
             alert('Order placed successfully! Thank you for choosing Eat & Repeat.');
-            window.location.href = '/index.html'; // Redirect to home page
+            window.location.href = '/Food-Delivery/index.html'; // Redirect to home page
         });
 
         // Display cart items when the page loads
