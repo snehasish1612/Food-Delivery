@@ -18,7 +18,7 @@ This is a basic responsive food delivery website built using HTML5, CSS3, and Bo
 - Bootstrap 5
 - JavaScript (for cart logic)
 - Netlify (for hosting)
-
+  
 ---
 
 
